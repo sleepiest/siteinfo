@@ -24,4 +24,11 @@ var SITEINFO = [
         exampleUrl:   'http://chikyu-no-cocolo.cocolog-nifty.com/blog/2012/10/post-1654.html',
     },
 
+    {
+        url:          '^http://www\\.rbbtoday\\.com/article/img/\\d+/\\d+/\\d+/\\d+/\\d+\\.html',
+        nextLink:     'id("photo")//a[text()="次の写真へ"]',
+        pageElement:  'id("photoImage")|id("photoCaption")',
+        exampleUrl:   'http://www.rbbtoday.com/article/img/2012/11/02/97140/233570.html'
+    },
+
 ]
